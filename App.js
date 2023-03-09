@@ -1,9 +1,11 @@
-import HomeScreen from './screens/HomeScreen';
+import Home from './screens/HomeScreen';
+import Flights from './screens/FlightsScreen';
 
 
 
 export default function App () {
   return(
-    <HomeScreen />
-  )
-}
+    //<HomeScreen />
+    <Flights />
+  );
+};
